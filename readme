@@ -1,0 +1,8 @@
+EL presente archivo se utiliza para el desarrollo de un codigo que tiene como objetivo el generar una contraseña de forma
+aleatoria, se hace uso de la importación de la libreria random para generar numeros de forma aleatoria. Luego se crea una funcion 
+llamada generar_contrasena() que no tiene ningun argumento, luego se crea una lista caracteres que contiene los caracteres ASCII desde
+el 33 hasta el 126, estos pueden ser letras, numeros, signos de puntuacion. Procedemos a crear una variable nombrada password para almacenar la contraseña 
+generada. Luego hacemos uso de un bucle while que se ejecutará mientras la longitud de la contraseña sea menor a 15. Se procede a elegir un caracter aleatorio 
+de la lista caracteres utilizando el random.choice, se verifica si el caracter ha sido utilizado, en caso de no ser utilizado se agrega a la lista de caracteres, 
+una vez la contraseña llega a 15 el bucle while se detiene y la contraseña generada se devuelve usando el return password, luego procedemos a imprimir la contraseña 
+generada desde  la función. 
